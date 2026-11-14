@@ -1,34 +1,34 @@
-# Library Management System
+# Système de gestion de bibliothèque
 
-A console-based Library Management System developed in Java using Object-Oriented Programming (OOP) principles.
+Application en ligne de commande développée en Java en utilisant les principes de la programmation orientée objet (POO).
 
-## Features
+## Fonctionnalités
 
-- Add new books
-- Display all books
-- Search for books by ID
-- Remove books
-- Borrow and return books
-- Prevent duplicate book IDs
-- Validate user input
-- Track book availability
+- Ajouter de nouveaux livres avec des identifiants uniques.
+- Afficher la liste de tous les livres.
+- Rechercher un livre par son identifiant.
+- Supprimer un livre.
+- Emprunter et retourner des livres.
+- Empêcher l'ajout de livres avec des identifiants en double.
+- Vérifier les saisies de l'utilisateur.
+- Gérer la disponibilité des livres.
 
-## Concepts Applied
+## Concepts utilisés
 
-- Classes and Objects
-- Encapsulation
-- Constructors and Getters
-- ArrayList
-- Methods and Conditional Statements
-- Loops and Exception Handling
+- Classes et objets.
+- Encapsulation.
+- Constructeurs et accesseurs (Getters).
+- ArrayList et Collections Java.
+- Méthodes et structures conditionnelles.
+- Boucles et gestion des exceptions.
 
-## Technologies
+## Technologies utilisées
 
-- Java
-- Java Collections Framework
-- Scanner
+- Java.
+- Java Collections Framework.
+- Scanner.
 
-## Project Structure
+## Organisation du projet
 
 ```text
 library-management-system-java/
@@ -40,15 +40,37 @@ library-management-system-java/
 └── README.md
 ```
 
-## How to Run
+## Prérequis
 
-1. Clone the repository.
-2. Open the project in a Java IDE or terminal.
-3. Compile the source files.
-4. Run the Main class.
+- Java Development Kit (JDK).
 
-## Author
+## Compilation et exécution
+
+Cloner le dépôt :
+
+```bash
+git clone https://github.com/rabahakkache/library-management-system-java.git
+```
+
+Compiler les fichiers sources :
+
+```bash
+mkdir out
+javac -d out src/Book.java src/Library.java src/Main.java
+```
+
+Exécuter l'application :
+
+```bash
+java -cp out Main
+```
+
+## Stockage des données
+
+Les livres sont actuellement stockés dans une collection `ArrayList` pendant l'exécution du programme. Les données ne sont pas conservées après la fermeture de l'application.
+
+## Auteur
 
 **Rabah Akkache**
 
-GitHub: [rabahakkache](https://github.com/rabahakkache)
+GitHub : [rabahakkache](https://github.com/rabahakkache)
