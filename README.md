@@ -6,11 +6,12 @@ A simple Library Management System developed in Java using Object-Oriented Progr
 ## Features
 
 - Add new books
+- Display all books
 - Search for books by ID
-- Prevent duplicate book IDs
-- Display book information
+- Remove books
 - Borrow and return books
-- Manage books using ArrayList
+- Validate user input
+- Prevent duplicate book IDs
 
 ## Technologies Used
 
